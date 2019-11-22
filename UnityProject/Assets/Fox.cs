@@ -9,6 +9,9 @@ public class Fox : MonoBehaviour
     
     public Transform fox;
 
+    public Rigidbody2D push;
+
+
     private void Move()
     {
         float h = Input.GetAxisRaw("Horizontal") * Time.deltaTime;
@@ -21,7 +24,16 @@ public class Fox : MonoBehaviour
     private void Update()
     {
         Move();
+
+        if (Input.GetKey("a"))
+        {
+            sr.flipX = true;
+        }
+        else
+        {
+            sr.flipX = false;
+        }
     }
 
-   
+    
 }
