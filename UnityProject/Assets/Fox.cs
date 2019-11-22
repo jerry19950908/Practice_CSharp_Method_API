@@ -2,21 +2,26 @@
 
 public class Fox : MonoBehaviour
 {
-    [Header("移動速度"), Range(0f, 10f)]
-    public float speed = 2f;
+    [Header("移動速度"), Range(0f, 500f)]
+    public float speed = 50f;
 
+    public SpriteRenderer sr;
+    
     public Transform fox;
 
     private void Move()
     {
-        float speed = Input.GetAxisRaw("Horizontal") * Time.deltaTime;
+        float h = Input.GetAxisRaw("Horizontal") * Time.deltaTime;
 
-        fox.Translate(speed, 0, 0);
+        fox.Translate(h*speed, 0, 0);
 
     }
+   
 
     private void Update()
     {
         Move();
     }
+
+   
 }
