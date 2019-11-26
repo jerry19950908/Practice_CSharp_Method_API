@@ -437,9 +437,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.3981699, y: -1.3320209, z: -1.086168}
+    m_Target: {x: -3.8233209, y: -2.5604954, z: -0.6756931}
     speed: 2
-    m_Value: {x: -0.3981699, y: -1.3320209, z: -1.086168}
+    m_Value: {x: -3.8233209, y: -2.5604954, z: -0.6756931}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -472,9 +472,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 10.983614
+    m_Target: 9.369782
     speed: 2
-    m_Value: 10.983614
+    m_Value: 9.369782
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -600,7 +600,7 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\USER\Desktop\Practice_CSharp_Method_API\UnityProject
+  m_LastProjectPath: C:\Users\user\Desktop\Practice_CSharp_Method_API\UnityProject
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:

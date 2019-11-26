@@ -414,7 +414,7 @@ Transform:
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &208772752
 BoxCollider2D:
@@ -649,7 +649,7 @@ Transform:
   m_LocalScale: {x: 8, y: 8, z: 8}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &475171106
 BoxCollider2D:
@@ -1016,10 +1016,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 835f3ff4315cca543908bf90785cff06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 15.83
   sr: {fileID: 1148020813}
   fox: {fileID: 1148020814}
-  push: {fileID: 0}
+  push: {fileID: 1148020816}
 --- !u!1 &1571837338
 GameObject:
   m_ObjectHideFlags: 0

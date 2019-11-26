@@ -2,9 +2,11 @@
 
 public class Fox : MonoBehaviour
 {
-    [Header("移動速度"), Range(0f, 500f)]
-    public float speed = 50f;
+    [Header("移動速度"), Range(0f, 20f)]
+    public float speed = 5f;
 
+   
+   
     public SpriteRenderer sr;
     
     public Transform fox;
@@ -33,7 +35,22 @@ public class Fox : MonoBehaviour
         {
             sr.flipX = false;
         }
+
+        
     }
 
-    
+    private void FixedUpdate()
+    {
+        push.AddForce(Vector2.right*10f);
+
+    }
+
+
+
+
+
+
+
+
+
 }
