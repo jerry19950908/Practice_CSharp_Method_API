@@ -1016,7 +1016,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 835f3ff4315cca543908bf90785cff06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 15.83
+  speed: 0.8
+  thrust: 1689
   sr: {fileID: 1148020813}
   fox: {fileID: 1148020814}
   push: {fileID: 1148020816}
